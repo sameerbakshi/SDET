@@ -1,0 +1,182 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 23 12:21:36 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>68 seconds (68154 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='hrm_Project.Activity1.testActivity1()'><b>testActivity1</b><br>Test class: hrm_Project.Activity1</td>
+<td></td>
+<td>0</td>
+<td>hrm_Project.Activity1@1869fbd2</td></tr>
+<tr>
+<td title='hrm_Project.Activity2.testActivity2()'><b>testActivity2</b><br>Test class: hrm_Project.Activity2<br/>
+<a href="#Output-1671590089" onClick='toggleBox("Output-1671590089", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1671590089" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1671590089">
+Title is: OrangeHRM<br/>
+ url of the header image ishttp://alchemy.hguy.co:8080/orangehrm/symfony/web/webres_5d69118beeec64.10301452/themes/default/images/login/logo.png<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>hrm_Project.Activity2@1fc32e4f</td></tr>
+<tr>
+<td title='hrm_Project.Activity3.testActivity3()'><b>testActivity3</b><br>Test class: hrm_Project.Activity3</td>
+<td></td>
+<td>1</td>
+<td>hrm_Project.Activity3@2f67b837</td></tr>
+<tr>
+<td title='hrm_Project.Activity4.testActivity4()'><b>testActivity4</b><br>Test class: hrm_Project.Activity4<br/>
+<a href="#Output-741390111" onClick='toggleBox("Output-741390111", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-741390111" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-741390111">
+Employee profile successfully created<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>hrm_Project.Activity4@7efaad5a</td></tr>
+<tr>
+<td title='hrm_Project.Activity5.testActivity5()'><b>testActivity5</b><br>Test class: hrm_Project.Activity5</td>
+<td></td>
+<td>2</td>
+<td>hrm_Project.Activity5@291a7e3c</td></tr>
+<tr>
+<td title='hrm_Project.Activity6.testActivity6()'><b>testActivity6</b><br>Test class: hrm_Project.Activity6</td>
+<td></td>
+<td>2</td>
+<td>hrm_Project.Activity6@6af9fcb2</td></tr>
+<tr>
+<td title='hrm_Project.Activity7.testActivity7()'><b>testActivity7</b><br>Test class: hrm_Project.Activity7</td>
+<td></td>
+<td>3</td>
+<td>hrm_Project.Activity7@6cce16f4</td></tr>
+<tr>
+<td title='hrm_Project.Activity8.testActivity8()'><b>testActivity8</b><br>Test class: hrm_Project.Activity8<br/>
+<a href="#Output-1646234040" onClick='toggleBox("Output-1646234040", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1646234040" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1646234040">
+Leave status of application number 1 for date(s) 2020-11-23 is : Cancelled(1.00)<br/>
+Leave status of application number 2 for date(s) 2020-11-23 is : Pending Approval(1.00)<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>hrm_Project.Activity8@ca30bc1</td></tr>
+<tr>
+<td title='hrm_Project.Activity9.testActivity9()'><b>testActivity9</b><br>Test class: hrm_Project.Activity9<br/>
+<a href="#Output-1992630936" onClick='toggleBox("Output-1992630936", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1992630936" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1992630936">
+There are 3 emergency contacts listed.
+<br/>
+Contact 1 details are:<br/>
+	<br/>
+Hira	<br/>
+Brother	<br/>
+	<br/>
+9999997777	<br/>
+	<br/>
+
+-------------------------------------------------- <br/>
+Contact 2 details are:<br/>
+	<br/>
+Test	<br/>
+Spouse	<br/>
+	<br/>
+1234567890	<br/>
+	<br/>
+
+-------------------------------------------------- <br/>
+Contact 3 details are:<br/>
+	<br/>
+Test1	<br/>
+brother	<br/>
+	<br/>
+0123456789	<br/>
+	<br/>
+
+-------------------------------------------------- <br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>hrm_Project.Activity9@1046d517</td></tr>
+</table><p>
+</body>
+</html>
